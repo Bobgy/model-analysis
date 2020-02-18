@@ -75,7 +75,7 @@ module.exports = [
       filename: 'index.js',
       path: path.resolve(__dirname, 'dist'),
       libraryTarget: 'amd',
-      publicPath: 'https://raw.githubusercontent.com/Bobgy/model-analysis/embed-bundle/tensorflow_model_analysis/static/',
+      publicPath: 'https://cdn.jsdelivr.net/gh/Bobgy/model-analysis@embed-bundle/tensorflow_model_analysis/notebook/jupyter/js/dist/tfma_widget_js@%5E0.1.0/dist/',
       // publicPath: 'https://unpkg.com/tfma_widget_js@' + version + '/dist/'
     },
     devtool: 'source-map',
