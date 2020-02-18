@@ -72,7 +72,7 @@ module.exports = [
     //
     entry: './lib/embed.js',
     output: {
-      filename: 'tfma_widget_js.js',
+      filename: 'index.js',
       path: path.resolve(__dirname, 'dist'),
       libraryTarget: 'amd',
       publicPath: 'https://raw.githubusercontent.com/Bobgy/model-analysis/embed-bundle/tensorflow_model_analysis/static/',

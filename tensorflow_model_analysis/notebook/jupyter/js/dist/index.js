@@ -17510,8 +17510,8 @@ module.exports = function(module) {
 /* 6 */
 /***/ (function(module, exports) {
 
-module.exports = {"main":"lib/index.js","files":["lib/**/*.js","dist/*.js"],"scripts":{"clean":"rimraf dist/","build":"webpack","prepublish":"webpack","copy-other-scripts":"cp ../../../static/vulcanized_tfma.js dist/","test":"echo \"Error: no test specified\" && exit 1"},"devDependencies":{"webpack":"^3.5.5","rimraf":"^2.6.1"},"dependencies":{"@jupyter-widgets/base":"^1.0.0","lodash":"^4.17.4"}}
+module.exports = {"main":"lib/index.js","files":["lib/**/*.js","dist/*.js"],"scripts":{"clean":"rimraf dist/","build":"webpack","prepublish":"webpack","copy-1":"cp ../../../static/vulcanized_tfma.js dist/tfma_widget_js@^0.1.0/dist/","copy-2":"cp dist/index.js dist/tfma_widget_js@^0.1.0/dist/","copy-all":"npm run copy-1 && npm run copy-2","test":"echo \"Error: no test specified\" && exit 1"},"devDependencies":{"webpack":"^3.5.5","rimraf":"^2.6.1"},"dependencies":{"@jupyter-widgets/base":"^1.0.0","lodash":"^4.17.4"}}
 
 /***/ })
 /******/ ])});;
-//# sourceMappingURL=tfma_widget_js.js.map
+//# sourceMappingURL=index.js.map

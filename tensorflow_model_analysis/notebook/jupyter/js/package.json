@@ -8,7 +8,9 @@
     "clean": "rimraf dist/",
     "build": "webpack",
     "prepublish": "webpack",
-    "copy-other-scripts": "cp ../../../static/vulcanized_tfma.js dist/",
+    "copy-1": "cp ../../../static/vulcanized_tfma.js dist/tfma_widget_js@^0.1.0/dist/",
+    "copy-2": "cp dist/index* dist/tfma_widget_js@^0.1.0/dist/",
+    "copy-all": "npm run copy-1 && npm run copy-2",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
