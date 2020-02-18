@@ -57,7 +57,7 @@ define(["@jupyter-widgets/base"], function(__WEBPACK_EXTERNAL_MODULE_2__) { retu
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "https://unpkg.com/tfma_widget_js@undefined/dist/";
+/******/ 	__webpack_require__.p = "https://raw.githubusercontent.com/Bobgy/model-analysis/embed-bundle/tensorflow_model_analysis/static/";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 0);
@@ -17510,8 +17510,8 @@ module.exports = function(module) {
 /* 6 */
 /***/ (function(module, exports) {
 
-module.exports = {"main":"lib/index.js","files":["lib/**/*.js","dist/*.js"],"scripts":{"clean":"rimraf dist/","prepublish":"webpack","test":"echo \"Error: no test specified\" && exit 1"},"devDependencies":{"webpack":"^3.5.5","rimraf":"^2.6.1"},"dependencies":{"@jupyter-widgets/base":"^1.0.0","lodash":"^4.17.4"}}
+module.exports = {"main":"lib/index.js","files":["lib/**/*.js","dist/*.js"],"scripts":{"clean":"rimraf dist/","build":"webpack","prepublish":"webpack","copy-other-scripts":"cp ../../../static/vulcanized_tfma.js dist/","test":"echo \"Error: no test specified\" && exit 1"},"devDependencies":{"webpack":"^3.5.5","rimraf":"^2.6.1"},"dependencies":{"@jupyter-widgets/base":"^1.0.0","lodash":"^4.17.4"}}
 
 /***/ })
 /******/ ])});;
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=tfma_widget_js.js.map

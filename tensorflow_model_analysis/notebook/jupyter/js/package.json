@@ -6,7 +6,9 @@
   ],
   "scripts": {
     "clean": "rimraf dist/",
+    "build": "webpack",
     "prepublish": "webpack",
+    "copy-other-scripts": "cp ../../../static/vulcanized_tfma.js dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
