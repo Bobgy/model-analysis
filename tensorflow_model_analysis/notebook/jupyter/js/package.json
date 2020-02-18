@@ -6,7 +6,7 @@
   ],
   "scripts": {
     "clean": "rimraf dist/",
-    "build": "webpack",
+    "build": "webpack && npm run copy-all",
     "prepublish": "webpack",
     "copy-1": "cp ../../../static/vulcanized_tfma.js dist/tfma_widget_js@^0.1.0/dist/",
     "copy-2": "cp dist/index* dist/tfma_widget_js@^0.1.0/dist/",

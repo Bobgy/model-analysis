@@ -57,7 +57,7 @@ define(["@jupyter-widgets/base"], function(__WEBPACK_EXTERNAL_MODULE_2__) { retu
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "https://cdn.jsdelivr.net/gh/Bobgy/model-analysis@embed-bundle/tensorflow_model_analysis/notebook/jupyter/js/dist/tfma_widget_js@%5E0.1.0/dist/";
+/******/ 	__webpack_require__.p = "https://cdn.jsdelivr.net/gh/Bobgy/model-analysis@kfp/tensorflow_model_analysis/notebook/jupyter/js/dist/tfma_widget_js@%5E0.1.0/dist/";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 0);
@@ -17510,7 +17510,7 @@ module.exports = function(module) {
 /* 6 */
 /***/ (function(module, exports) {
 
-module.exports = {"main":"lib/index.js","files":["lib/**/*.js","dist/*.js"],"scripts":{"clean":"rimraf dist/","build":"webpack","prepublish":"webpack","copy-1":"cp ../../../static/vulcanized_tfma.js dist/tfma_widget_js@^0.1.0/dist/","copy-2":"cp dist/index* dist/tfma_widget_js@^0.1.0/dist/","copy-all":"npm run copy-1 && npm run copy-2","test":"echo \"Error: no test specified\" && exit 1"},"devDependencies":{"webpack":"^3.5.5","rimraf":"^2.6.1"},"dependencies":{"@jupyter-widgets/base":"^1.0.0","lodash":"^4.17.4"}}
+module.exports = {"main":"lib/index.js","files":["lib/**/*.js","dist/*.js"],"scripts":{"clean":"rimraf dist/","build":"webpack && npm run copy-all","prepublish":"webpack","copy-1":"cp ../../../static/vulcanized_tfma.js dist/tfma_widget_js@^0.1.0/dist/","copy-2":"cp dist/index* dist/tfma_widget_js@^0.1.0/dist/","copy-all":"npm run copy-1 && npm run copy-2","test":"echo \"Error: no test specified\" && exit 1"},"devDependencies":{"webpack":"^3.5.5","rimraf":"^2.6.1"},"dependencies":{"@jupyter-widgets/base":"^1.0.0","lodash":"^4.17.4"}}
 
 /***/ })
 /******/ ])});;
